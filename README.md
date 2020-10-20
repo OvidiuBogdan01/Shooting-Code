@@ -12,16 +12,8 @@ Totorial for spawning bullets when trying to shoot
 
 •	To begin with you need to create references for the position of the fire point and the object that will spawn as bullet
 
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Shoot : MonoBehaviour
-{
-public Transform FirePoint;
-public GameObject Bullet;
-
+    public Transform FirePoint; 
+    public GameObject Bullet;
 
 •	When this is done, save it, go to unity and drag and drop the FirePoint from in unity scene in the transform space created in the script component as well as the bullet prefab in the script component in the bullet box
 •	If you don’t do that, the script will not know what to spawn and where to spawn and therefor won’t work
